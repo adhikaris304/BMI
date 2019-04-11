@@ -14,13 +14,13 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/txtheight"
+            android:id="@+id/tvheight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:text="Your Height:"/>
+            android:text="Your Weight:"/>
 
         <EditText
             android:id="@+id/etheight"
@@ -44,7 +44,7 @@
         >
 
         <TextView
-            android:id="@+id/txtweight"
+            android:id="@+id/tvweight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -78,7 +78,7 @@
         android:layout_gravity="center">
 
         <TextView
-            android:id="@+id/txtbmi"
+            android:id="@+id/tvbmi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Your BMI:"/>
